@@ -1,0 +1,24 @@
+algorithm for finding the smallest number among n numbers using arrays
+Main Function:
+Start: Begin the program execution.
+Input n: Prompt the user to enter the number of elements (n) they want to input.
+Validate n: Check if the number of elements is greater than 0. If not, print an error message and exit.
+Input numbers: Dynamically allocate an array of size n to store the numbers.
+Input elements: Prompt the user to input n numbers and store them in the array.
+Initialize variables: Initialize variables min and minPosition based on the first element of the array.
+Find min:
+Iterate through the array starting from the second element.
+Compare each element with min to determine the smallest number and its position.
+Update min and minPosition accordingly.
+Print result: Print the smallest number (min) and its position in the array.
+End: End the program execution.
+Finding Min Function:
+Start: Begin the function execution.
+Input array: Receive the array of numbers and its size as parameters.
+Initialize variables: Initialize variables min and minPosition based on the first element of the array.
+Find min:
+Iterate through the array starting from the second element.
+Compare each element with min to determine the smallest number and its position.
+Update min and minPosition accordingly.
+Return result: Return min and minPosition as the result of the function.
+End: End the function execution.
