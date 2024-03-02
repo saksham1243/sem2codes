@@ -1,0 +1,24 @@
+algorithm for finding second largest number among n numbers using array
+Main Function:
+Start: Begin the program execution.
+Input n: Prompt the user to enter the number of elements (n) they want to input.
+Validate n: Check if the number of elements is greater than 1. If not, print an error message and exit.
+Input numbers: Dynamically allocate an array of size n to store the numbers.
+Input elements: Prompt the user to input n numbers and store them in the array.
+Initialize variables: Initialize variables max, secondMax, maxPosition, and secondMaxPosition based on the first two elements of the array.
+Find max and secondMax:
+Iterate through the array starting from the third element.
+Compare each element with max and secondMax to determine their positions.
+Update max, secondMax, maxPosition, and secondMaxPosition accordingly.
+Print result: Print the second largest number (secondMax) and its position in the array.
+End: End the program execution.
+Finding Max and SecondMax Function:
+Start: Begin the function execution.
+Input array: Receive the array of numbers and its size as parameters.
+Initialize variables: Initialize variables max, secondMax, maxPosition, and secondMaxPosition based on the first two elements of the array.
+Find max and secondMax:
+Iterate through the array starting from the third element.
+Compare each element with max and secondMax to determine their positions.
+Update max, secondMax, maxPosition, and secondMaxPosition accordingly.
+Return result: Return secondMax and secondMaxPosition as the result of the function.
+End: End the function execution.
